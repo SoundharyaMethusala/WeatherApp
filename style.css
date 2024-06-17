@@ -1,0 +1,46 @@
+
+/* colour palette- https://www.canva.com/colors/color-palettes/foil-covered-sneakers/ */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main,form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color:#FAD02C;
+    height:85vh;
+}
+form{
+    height:15vh;
+    background-color: #333652;
+}
+main div{
+    margin:1.5rem;
+    font-weight: 600;
+}
+input{
+    width:40vw;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    font-size:1.5 rem;
+    padding: 0.5rem;
+    color:white;
+}
+button{
+    background-color: #E9EAEC;
+    height: 3rem;
+    width: 8rem;
+    border: none;
+    margin-left:2rem;
+    font-size:1rem;
+    cursor:pointer;
+}
+input::placeholder{
+    color:white;
+}
